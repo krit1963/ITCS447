@@ -1,0 +1,37 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "distance": {
+      "operation": {
+        "store": {
+          "ttl": "7d"
+        },
+        "type": "number"
+      }
+    },
+    "led": {
+      "operation": {
+        "store": {
+          "ttl": "7d"
+        }
+      },
+      "type": "number"
+    },
+    "alert_status": {
+      "operation": {
+        "store": {
+          "ttl": "7d"
+        }
+      },
+      "type": "number"
+    },
+    "min_dis": {
+      "operation": {
+        "store": {
+          "ttl": "7d"
+        }
+      },
+      "type": "number"
+    }
+  }
+}
